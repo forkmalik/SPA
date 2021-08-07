@@ -7,12 +7,6 @@ const MainPage = () => {
   return (
     <main class="main">
       <Calendar />
-      <Contacts />
-      <div class="more">
-        <a href="#" class="details">
-          Details
-        </a>
-      </div>
     </main>
   );
 };
