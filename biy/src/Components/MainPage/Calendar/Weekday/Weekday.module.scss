@@ -1,23 +1,26 @@
+li {
+  margin-bottom: 10px;
+}
 .weekday {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 15px;
   height: 25px;
+  text-align: center;
+  
   //width: 1%;
 }
 .weekend {
-  //display: block;
+  display: block;
    transform: rotate(-90deg);
    -webkit-transform: rotate(-90deg);
    -moz-transform: rotate(-90deg);
-  margin-left: -20px;
-  margin-top: 25px;
+   //margin-top: -10px;
   font-size: 16px;
 }
 .day {
   color: #DF711B;
   font-size: 18px;
   font-weight: 700;
+  margin-bottom: 15px;
 }
-.line {
-  margin-left: 20px;
-}
+

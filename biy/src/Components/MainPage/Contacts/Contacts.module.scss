@@ -1,0 +1,21 @@
+.contacts{
+    float: right;
+    display: block;
+    //height: 5%;
+    //margin-left: 15%;
+    margin-top: 2%;
+    //margin-top: -115px;
+    margin-right: 15%;
+    font-size: 16px;
+    
+}
+.contacts__element {
+   margin-bottom: 10px;
+   height: 30px;
+}
+.contacts__img{
+    width: 20px;
+    height: auto;
+    padding-right: 5px;
+    vertical-align: middle;
+}

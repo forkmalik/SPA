@@ -1,12 +1,14 @@
 import React from "react";
 import Calendar from "./Calendar/Calendar";
 import Contacts from "./Contacts/Contacts";
-import mainStyle from "./MainPage.module.scss";
+import style from "./MainPage.module.scss";
 
 const MainPage = () => {
   return (
-    <main class="main">
+    <main className={style.main}>
       <Calendar />
+      <Contacts />
+      
     </main>
   );
 };
