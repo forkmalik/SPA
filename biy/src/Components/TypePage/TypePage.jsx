@@ -1,14 +1,14 @@
 import React from "react";
 import ClassTypes from "./ClassTypes/ClassTypes";
-import typeStyle from "./TypePage.module.scss";
+import style from "./TypePage.module.scss";
 
 const TypePage = () => {
   return (
-    <div class="classtype">
-      <span class="service">types</span>
-      <button class="back-button classtype__button">
-        <i class="icon-left-open"></i>Back
-      </button>
+    <div className={style.classtype}>
+      {/* <span className={style.service}>types</span> */}
+      {/* <button className={style.backButton, style.classtype__button}>
+        <i className="icon-left-open"></i>Back
+      </button> */}
       <ClassTypes />
     </div>
   );

@@ -1,17 +1,20 @@
 import React from "react";
-import typeStyle from "./Type.module.scss";
+import style from "./Type.module.scss";
+import clockImg from "../../../../img/clock.png";
 
-const Type = () => {
+const Type = (props) => {
   return (
-    <div class="type lecture">
-      <h3 class="type__title">Lecture class</h3>
-      <div class="time">
-        <img src="img/clock.png" alt="" class="type__clock" />
-        <span class="type__time">1:20 h.</span>
+    <div className={style.type}>
+      <div className={style.type__img}>
+        <img src={props.img} alt="" />
       </div>
-      <button class="type__reserv-button classtype__button lecture-button">
-        Select
-      </button>
+
+      <h3 className={style.type__title}>{props.title}</h3>
+      <div className={style.time}>
+        <img src={clockImg} alt="" className={style.type__clock} />
+        <span className={style.type__time}>{props.time}</span>
+      </div>
+      <button className={style.type__reservButton}>Select</button>
     </div>
   );
 };
