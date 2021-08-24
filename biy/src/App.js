@@ -1,4 +1,5 @@
 import "./App.css";
+import Carousel from "./Components/Carousel/Carousel";
 import Header from "./Components/Header/Header.jsx";
 import MainPage from "./Components/MainPage/MainPage";
 import TypePage from "./Components/TypePage/TypePage";
@@ -8,7 +9,8 @@ function App() {
     <div>
       <Header />
       {/* <MainPage /> */}
-      <TypePage />
+      {/* <TypePage /> */}
+      <Carousel />
     </div>
   );
 }

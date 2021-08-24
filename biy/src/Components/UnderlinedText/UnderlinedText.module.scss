@@ -1,0 +1,19 @@
+.undText {
+  max-height: 25%;
+  margin-left: 200px;
+}
+
+.text {
+  font-size: 25px;
+  font-weight: 400;
+  color: #df711b;
+  &::after {
+      display: block;
+      margin-top: 20px;
+    content: "";
+    max-width: 85%;
+    height: 1px;
+    width: 100%;
+    background-color: #df711b;
+  }
+}
