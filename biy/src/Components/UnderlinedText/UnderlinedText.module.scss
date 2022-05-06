@@ -1,11 +1,12 @@
 .undText {
-  max-height: 25%;
+  max-height: 15%;
   margin-left: 200px;
+  margin-bottom: 20px;
 }
 
 .text {
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   color: #df711b;
   &::after {
       display: block;
