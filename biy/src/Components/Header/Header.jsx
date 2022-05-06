@@ -7,7 +7,7 @@ const Header = () => {
     <header className={style.header}>
       <div className={style.header__container}>
         <h1 className={style.header__text}>Book It Yourself</h1>
-        <button className={style.header__button}>Book Now</button>
+        <a className={style.header__button}>Book Now</a>
       </div>
       <img className={style.header__logo} src={logoImage} alt="" />
     </header>

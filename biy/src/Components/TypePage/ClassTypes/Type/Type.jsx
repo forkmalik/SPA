@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Type.module.scss";
-import clockImg from "../../../../img/clock.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 const Type = (props) => {
   return (
@@ -11,7 +12,7 @@ const Type = (props) => {
 
       <h3 className={style.type__title}>{props.title}</h3>
       <div className={style.time}>
-        <img src={clockImg} alt="" className={style.type__clock} />
+        <FontAwesomeIcon  className={style.type__clock} icon={solid('clock')} />
         <span className={style.type__time}>{props.time}</span>
       </div>
       <button className={style.type__reservButton}>Select</button>
